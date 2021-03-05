@@ -73,10 +73,17 @@ button a {
 .imgPortfolio {
   height: 10rem;
   width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgPortfolio:hover {
+  background-color: black;
 }
 
 .imgPortfolio > img {
-  height: 10rem;
+  height: 100%;
   position: absolute;
 }
 
@@ -84,6 +91,18 @@ button a {
   position: relative;
 }
 
-.imgPortfolio > a {
+.imgPortfolio > button {
   position: relative;
+  border-radius: 1044064015610px;
+  z-index: 1;
+  background: rgb(92, 69, 223);
+}
+
+.imgPortfolio > button > a {
+  position: relative;
+  z-index: 2;
+}
+
+.imgPortfolio > button:hover {
+  background: rgb(26, 26, 202);
 }
