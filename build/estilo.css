@@ -1,7 +1,20 @@
+h1,
+h2,
+h3,
+h4 {
+  width: 100%;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 #hero {
   position: relative;
   max-width: 100%;
   min-height: 100vh;
+  background-color: rgb(182, 25, 36);
 }
 
 #hero .container {
@@ -19,7 +32,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(182, 25, 36);
   z-index: 0;
 }
 
@@ -43,3 +55,35 @@ button a {
   font-size: 30px;
 }
 
+.text-center {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.small-text {
+  text-align: center;
+  width: 70%;
+}
+
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgPortfolio {
+  height: 10rem;
+  width: 10rem;
+}
+
+.imgPortfolio > img {
+  height: 10rem;
+  position: absolute;
+}
+
+.imgPortfolio > p {
+  position: relative;
+}
+
+.imgPortfolio > a {
+  position: relative;
+}
