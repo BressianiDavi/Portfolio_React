@@ -1,0 +1,76 @@
+.imgPortfolio {
+  height: 11em;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgPortfolio > img {
+  height: 11rem;
+  position: absolute;
+  width: 22rem;
+}
+
+.imgPortfolio:hover > img {
+  transition: 2s;
+  display: none;
+}
+
+.imgPortfolio > p {
+  background: none;
+}
+
+.imgPortfolio:hover > p {
+  position: relative;
+
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgPortfolio > button {
+  background: none;
+  width: 50%;
+}
+
+.imgPortfolio:hover > button {
+  position: relative;
+  z-index: 1;
+
+  border-color: #277b63;
+
+  border-radius: 1044064015610px;
+  transition: background-color 0.5s;
+}
+
+.imgPortfolio > button > a {
+  background: none;
+  text-decoration: none;
+}
+
+.imgPortfolio:hover > button > a {
+  text-decoration: white;
+  position: relative;
+  z-index: 2;
+}
+
+.imgPortfolio > button:hover {
+  background: #587854;
+}
+
+.transition {
+  background: #6cb064;
+}
+
+.transition:hover {
+  transition: 2s;
+  width: 100%;
+  background: #02f567;
+  position: relative;
+}

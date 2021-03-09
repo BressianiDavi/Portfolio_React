@@ -2,6 +2,8 @@ import React from "react";
 
 import ItemPortfolio from "./ItemPortfolio";
 
+import "../styles/ItemPortfolio.css";
+
 const Portfolio = (props) => {
   const portfolioList = [
     {

@@ -1,0 +1,49 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#hero {
+  position: relative;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #e84709;
+}
+
+#hero .container {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.cabecalho {
+  width: 100vh;
+  padding: 2rem;
+}
+
+.social {
+  display: flex;
+  align-items: flex-end;
+}
+
+.fab {
+  font-size: 30px;
+}
+
+.small-text {
+  text-align: center;
+  width: 70%;
+}

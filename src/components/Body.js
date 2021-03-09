@@ -1,10 +1,12 @@
 import React from "react";
 import Particles from "./Particles";
 import Luminaria from "../assets/img/luminaria (1).png";
-import Portfolio from './Portfolio'
+import Portfolio from "./Portfolio";
+
+import "../styles/Body.css";
 
 const Body = (props) => {
-  console.log("body", props)
+  console.log("body", props);
   return (
     <div id="hero">
       <div className="particles-js">
@@ -17,89 +19,78 @@ const Body = (props) => {
               <img src={Luminaria} alt="lâmpada" />
             </div>
           </div>
-          <div className="col" role="button" target="_blank" rel="external">
-            <button type="button" className="btn btn-outline-dark btn-lg">
+          <div className="col social">
+            <p>
               <a
-                href="https://clicano.link/Contato-Davi-Bressiani"
+                className="btn button-outline btn-lg"
+                href="https://github.com/BressianiDavi"
+                role="button"
                 target="_blank"
                 rel="external noreferrer"
               >
-                Say Hello
+                <i
+                  style={{ color: "#24292e" }}
+                  className="fab fa-fw fa-github"
+                ></i>
               </a>
-            </button>
+            </p>
+            <p>
+              <a
+                className="btn button-outline btn-lg"
+                href="https://www.linkedin.com/in/davi-bressiani-14a5761a8/"
+                role="button"
+                target="_blank"
+                rel="external noreferrer"
+              >
+                <i
+                  style={{ color: "#0a66c2" }}
+                  className="fab fa-fw fa-linkedin-in"
+                ></i>{" "}
+              </a>
+            </p>
+            <p>
+              <a
+                className="btn button-outline btn-lg"
+                href="https://www.facebook.com/davi.bressiani"
+                role="button"
+                target="_blank"
+                rel="external noreferrer"
+              >
+                <i
+                  style={{ color: "#1094f4" }}
+                  className="fab fa-fw fa-facebook"
+                ></i>
+              </a>
+            </p>
+            <p>
+              <a
+                className="btn button-outline btn-lg"
+                href="https://www.instagram.com/davi_bressiani/"
+                role="button"
+                target="_blank"
+                rel="external noreferrer"
+              >
+                <i
+                  style={{ color: "#d43089" }}
+                  className="fab fa-fw fa-instagram"
+                ></i>
+              </a>
+            </p>
+            <p>
+              <a
+                className="btn btn-outline btn-lg"
+                href="https://clicano.link/Contato-Davi-Bressiani"
+                role="button"
+                target="_blank"
+                rel="external noreferrer"
+              >
+                <i
+                  style={{ color: "#38d754" }}
+                  className="fab fa-fw fa-whatsapp"
+                ></i>{" "}
+              </a>
+            </p>
           </div>
-          <div className='col social'>
-              <p>
-                <a
-                  className="btn button-outline btn-lg"
-                  href="https://github.com/BressianiDavi"
-                  role="button"
-                  target="_blank"
-                  rel="external noreferrer"
-                >
-                  <i
-                    style={{ color: "#24292e" }}
-                    className="fab fa-fw fa-github"
-                  ></i>
-                </a>
-              </p>
-              <p>
-                <a
-                  className="btn button-outline btn-lg"
-                  href="https://www.linkedin.com/in/davi-bressiani-14a5761a8/"
-                  role="button"
-                  target="_blank"
-                  rel="external noreferrer"
-                >
-                  <i
-                    style={{ color: "#0a66c2" }}
-                    className="fab fa-fw fa-linkedin-in"
-                  ></i>{" "}
-                </a>
-              </p>
-              <p>
-                <a
-                  className="btn button-outline btn-lg"
-                  href="https://www.facebook.com/davi.bressiani"
-                  role="button"
-                  target="_blank"
-                  rel="external noreferrer"
-                >
-                  <i
-                    style={{ color: "#1094f4" }}
-                    className="fab fa-fw fa-facebook"
-                  ></i>
-                </a>
-              </p>
-              <p>
-                <a
-                  className="btn button-outline btn-lg"
-                  href="https://www.instagram.com/davi_bressiani/"
-                  role="button"
-                  target="_blank"
-                  rel="external noreferrer"
-                >
-                  <i
-                    style={{ color: "#d43089" }}
-                    className="fab fa-fw fa-instagram"
-                  ></i>
-                </a>
-              </p>
-              <p>
-                <a
-                  className="btn btn-outline btn-lg"
-                  href="https://clicano.link/Contato-Davi-Bressiani"
-                  role="button"
-                  target="_blank"
-                  rel="external noreferrer"
-                >
-                  <i
-                    style={{ color: "#38d754" }}
-                    className="fab fa-fw fa-whatsapp"
-                  ></i>{" "}
-                </a>
-              </p>
-            </div>
           <div
             className="col-2"
             role="button"
@@ -127,7 +118,7 @@ const Body = (props) => {
             tanto remoto como presencialmente.
           </p>
         </section>
-        <Portfolio portfolioList={props.portfolioList}/>
+        <Portfolio portfolioList={props.portfolioList} />
       </div>
     </div>
   );
