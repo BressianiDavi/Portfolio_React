@@ -19,7 +19,7 @@ const Body = (props) => {
               <img src={Luminaria} alt="lâmpada" />
             </div>
           </div>
-          <div className="col social">
+          <div className="col-10 social">
             <p>
               <a
                 className="btn button-outline btn-lg"
@@ -91,12 +91,6 @@ const Body = (props) => {
               </a>
             </p>
           </div>
-          <div
-            className="col-2"
-            role="button"
-            target="_blank"
-            rel="external noreferrer"
-          ></div>
         </header>
         <section className="row title">
           <p>Front-end Developer</p>

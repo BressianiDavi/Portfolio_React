@@ -7,7 +7,7 @@
 }
 
 .imgPortfolio > img {
-  height: 11rem;
+  height: 12rem;
   position: absolute;
   width: 22rem;
 }
@@ -52,6 +52,8 @@
 .imgPortfolio > button > a {
   background: none;
   text-decoration: none;
+
+  color: black;
 }
 
 .imgPortfolio:hover > button > a {

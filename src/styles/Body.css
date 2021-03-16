@@ -8,17 +8,17 @@
   position: relative;
   max-width: 100%;
   min-height: 100vh;
-  background-color: #e84709;
+  background-color: #cacaf0;
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  z-index: 1;
 }
 
 #hero .container {
-  position: absolute;
-
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
 }
 
 .particles-js {
@@ -30,8 +30,7 @@
   z-index: 0;
 }
 .cabecalho {
-  width: 100vh;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .social {
