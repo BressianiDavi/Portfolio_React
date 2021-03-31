@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/ItemPortfolio.css";
+import "./ItemPortfolio.css";
 
 const ItemPortfolio = ({ conteudo }) => {
   const { image, description, link } = conteudo;

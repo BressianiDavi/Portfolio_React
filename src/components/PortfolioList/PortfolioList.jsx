@@ -1,10 +1,8 @@
 import React from "react";
 
-import ItemPortfolio from "./ItemPortfolio";
+import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
 
-import "../styles/ItemPortfolio.css";
-
-const Portfolio = (props) => {
+const PortfolioList = (props) => {
   const portfolioList = [
     {
       image: "https://fakeimg.pl/250x100/",
@@ -39,4 +37,4 @@ const Portfolio = (props) => {
     </div>
   );
 };
-export default Portfolio;
+export default PortfolioList;

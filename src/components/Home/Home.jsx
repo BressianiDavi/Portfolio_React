@@ -1,12 +1,12 @@
-import React from "react";
-import Particles from "./Particles";
-import Luminaria from "../assets/img/luminaria (1).png";
-import Portfolio from "./Portfolio";
+import React, { Link } from "react";
 
-import "../styles/Body.css";
+import Particles from "../Particles";
+import Luminaria from "../../assets/img/luminaria (1).png";
+import PortfolioList from "../PortfolioList/PortfolioList";
 
-const Body = (props) => {
-  console.log("body", props);
+import "./Home.css";
+
+const Home = (props) => {
   return (
     <div id="hero">
       <div className="particles-js">
@@ -45,7 +45,7 @@ const Body = (props) => {
                 <i
                   style={{ color: "#0a66c2" }}
                   className="fab fa-fw fa-linkedin-in"
-                ></i>{" "}
+                ></i>
               </a>
             </p>
             <p>
@@ -112,9 +112,9 @@ const Body = (props) => {
             tanto remoto como presencialmente.
           </p>
         </section>
-        <Portfolio portfolioList={props.portfolioList} />
+        <PortfolioList />
       </div>
     </div>
   );
 };
-export default Body;
+export default Home;
